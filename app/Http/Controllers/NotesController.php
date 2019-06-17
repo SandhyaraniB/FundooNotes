@@ -165,8 +165,8 @@ class NotesController extends Controller
      * using the collection concepts to filter the notes
      *
      * Chain the methods for fine-tuned criteria
-     * @param Request
-     * @return required node based on title,body & label & get the userid
+     * @param Request 
+     * @return required node based on title,body & label & get the userid $ filter
      */
     public function searchNotes(Request $req)
     {   
